@@ -1,0 +1,9 @@
+<h1>ENTER YOUR INFORMATION</h1>
+<div>
+    <form [formGroup]="myForm" (ngSubmit)='enterdata(myForm.value)' class="form-group input1">
+        <label>id <input  class="form-control input2" type="number" formControlName="id" placeholder="id"></label>
+        <label> name<input  class="form-control input2" type="text" formControlName="name" placeholder="name"></label>
+        <label> phone<input  class="form-control input2" type="text" formControlName="phone" placeholder="phone"></label>
+        <button class="btn btn-primary" type="submit">SUBMIT</button>
+    </form>
+</div>

@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
+  text-transform: uppercase;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.input1 {
+  height: 400px;
+  margin-top: 50px;
+}
+.input2 {
+  width: 400px;
+}
